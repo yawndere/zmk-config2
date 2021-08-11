@@ -90,9 +90,9 @@
     default_layer {
             bindings = <
     &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U &kp I &kp O &kp P
-    &hm2 LGUI A &hm LALT S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &kp SQT
+    &hm2 LGUI A &hm LALT S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &kp RET
     &kp Z &kp X &kp C &kp V &kp B &kp N &kp M &kp COMMA &kp DOT &kp FSLH
-    &kp LCTRL &hm1 LSHFT SPACE &bh 1 BKSP &mo 2 
+    &kp LCTRL &hm1 LSHFT BSPC &bh 1 SPACE &mo 2 
             >;
         };
 
@@ -108,7 +108,7 @@
     nav {
             bindings = <
     &bt BT_SEL_CMD 0 &bt BT_SEL_CMD 1 &none &none &none &none &none &none &none &none
-    &kp LEFT &kp DOWN &kp UP &kp RIGHT &none &none &kp C_PREV &kp C_PP &kp C_NEXT &kp RET
+    &kp LEFT &kp DOWN &kp UP &kp RIGHT &none &none &kp C_PREV &kp C_PP &kp C_NEXT &none
     &none &none &none &none &none &none &none &none &none &none
     &bt BT_CLR &trans &none &none
             >;
